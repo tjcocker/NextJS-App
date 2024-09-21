@@ -1,31 +1,26 @@
-// export default function Page() {
-//     return <p>Customers Page</p>;
-//   }
-
-import type { Metadata } from 'next'
-
-+import { fetchFilteredCustomers } from '@/app/lib/data'
-+import CustomersTable from '@/app/ui/customers/table'
+import { fetchFilteredCustomers } from '@/app/lib/data';
+import CustomersTable from '@/app/ui/customers/table';
+import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Customers',
-}
+};
 
 export default async function Page({
-+  searchParams,
-+}: {
-+ searchParams?: {
-+    query?: string
-+   page?: string
-+  }
-+}) {
-+  const query = searchParams?.query || ''
+  searchParams,
+}: {
+  searchParams?: {
+    query?: string;
+    page?: string;
+  };
+}) {
+  const query = searchParams?.query || '';
 
-*  const customers = await fetchFilteredCustomers(query)
+  const customers = await fetchFilteredCustomers(query);
 
   return (
     <main>
-*      <CustomersTable customers={customers} />
+      <CustomersTable customers={customers} />
     </main>
-  )
+  );
 }
