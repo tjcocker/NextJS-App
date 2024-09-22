@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import NavLinks from '@/app/ui/dashboard/nav-links';
 import MyLogo from '@/app/ui/my-logo';
-import { PowerIcon } from '@heroicons/react/24/outline';
 
 export default function SideNav() {
   return (
