@@ -15,7 +15,7 @@ const Home: NextPage = () => {
                 <h1>
                     <b>Welcome!</b>
                 </h1><br></br>
-                <p><i>This is a project for learning Next.js and playing around with testing tools for web apps.</i></p>
+                <p><i>This is a project for learning Next.js and playing around with testing tools.</i></p>
                 <br></br>
                 <p>Feel free to create, update, or delete invoices. (I can re-seed the data)</p>
                 <br></br>  <br></br>     <br></br>   <Link
