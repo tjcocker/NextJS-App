@@ -1,6 +1,6 @@
 import bcrypt from 'bcrypt';
 import { db } from '@vercel/postgres';
-import { customers, revenue, users } from '../lib/placeholder-data';
+import { invoices, customers, revenue, users } from '../lib/placeholder-data';
 
 const client = await db.connect();
 
@@ -42,7 +42,17 @@ async function seedInvoices() {
     );
   `;
 
+  const insertedInvoices = await Promise.all(
+    invoices.map(
+      (invoice) => client.sql`
+        INSERT INTO invoices (customer_id, amount, status, date)
+        VALUES (${invoice.customer_id}, ${invoice.amount}, ${invoice.status}, ${invoice.date})
+        ON CONFLICT (id) DO NOTHING;
+      `,
+    ),
+  );
 
+  return insertedInvoices;
 }
 
 async function seedCustomers() {
