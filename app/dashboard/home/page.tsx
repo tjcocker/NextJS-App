@@ -25,7 +25,7 @@ const Home: NextPage = () => {
                     <span>Start with the Dashboard</span>
                 </Link>
                 <br></br> <br></br><br></br>
-                <p><b>Deleted all the invoices?</b> Don't worry, I can re-seed the data.</p><br></br> <p><i>Or, you can re-seed the database yourself:</i></p><br></br>
+                <p><b>Deleted all the invoices?</b> Don&apos;t worry, I can re-seed the data.</p><br></br> <p><i>Or, you can re-seed the database yourself:</i></p><br></br>
                 <p>1. Click below:</p><br></br>
                 <Link
                     href="/seed"
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
                 > <CloudArrowDownIcon className="w-5 md:w-6" />
                     <span>Re-seed Database</span>
                 </Link>
-                <br></br><p>2. Click the back button on your browser when you see the message, - Database Seeded Successfully.</p><br></br>
+                <br></br><p>2. Click the back button on your browser when you see the message, &quot;Database Seeded Successfully&quot;.</p><br></br>
                 <p>3. Go to Invoices to see the repopulated database.</p>
                 <div><br></br>
                     <Link
