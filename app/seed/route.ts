@@ -111,7 +111,7 @@ export async function GET() {
     await seedRevenue();
     await client.sql`COMMIT`;
 
-    return Response.json({ message: 'Database seeded successfully' });
+    return Response.json({ message: 'Database seeded successfully, click the Back button on your browser' });
   } catch (error) {
     await client.sql`ROLLBACK`;
     return Response.json({ error }, { status: 500 });
