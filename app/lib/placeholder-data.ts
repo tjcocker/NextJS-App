@@ -1,10 +1,8 @@
-// This file contains placeholder data that you'll be replacing with real data in the Data Fetching chapter:
-// https://nextjs.org/learn/dashboard-app/fetching-data
 const users = [
   {
     id: '410544b2-4001-4271-9855-fec4b6a6442a',
     name: 'User',
-    email: 'user@nextmail.com',
+    email: 'user@user.com',
     password: '123456',
   },
 ];
@@ -51,9 +49,9 @@ const customers = [
 const invoices = [
   {
     customer_id: customers[0].id,
-    amount: 15795,
+    amount: 1000000,
     status: 'pending',
-    date: '2022-12-06',
+    date: '2024-9-06',
   },
   {
     customer_id: customers[1].id,
@@ -86,12 +84,6 @@ const invoices = [
     date: '2023-07-16',
   },
   {
-    customer_id: customers[0].id,
-    amount: 666,
-    status: 'pending',
-    date: '2023-06-27',
-  },
-  {
     customer_id: customers[3].id,
     amount: 32545,
     status: 'paid',
@@ -108,12 +100,6 @@ const invoices = [
     amount: 8546,
     status: 'paid',
     date: '2023-06-07',
-  },
-  {
-    customer_id: customers[1].id,
-    amount: 500,
-    status: 'paid',
-    date: '2023-08-19',
   },
   {
     customer_id: customers[5].id,
