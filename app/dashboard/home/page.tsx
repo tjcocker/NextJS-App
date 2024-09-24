@@ -33,7 +33,7 @@ const Home: NextPage = () => {
                 > <CloudArrowDownIcon className="w-5 md:w-6" />
                     <span>Re-seed Database</span>
                 </Link>
-                <br></br><p>2. Click the back button on your browser when you see the message, "Database Seeded Successfully".</p><br></br>
+                <br></br><p>2. Click the back button on your browser when you see the message, - Database Seeded Successfully.</p><br></br>
                 <p>3. Go to Invoices to see the repopulated database.</p>
                 <div><br></br>
                     <Link
