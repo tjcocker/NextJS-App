@@ -34,7 +34,7 @@ const Home: NextPage = () => {
                     <span>Re-seed Database</span>
                 </a>
                 <br></br><p>2. Click the back button on your browser when you see the message, &quot;Database Seeded Successfully&quot;.</p><br></br>
-                <p>3. Go to Invoices to see the repopulated database.</p>
+                <p>3. Go to Invoices to see the repopulated database:</p>
                 <div><br></br>
                     <Link
                         href="/dashboard/invoices"

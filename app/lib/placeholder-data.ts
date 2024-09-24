@@ -56,7 +56,7 @@ const invoices = [
   {
     customer_id: customers[1].id,
     amount: 20348,
-    status: 'pending',
+    status: 'paid',
     date: '2022-11-14',
   },
   {
@@ -86,7 +86,7 @@ const invoices = [
   {
     customer_id: customers[2].id,
     amount: 54246,
-    status: 'pending',
+    status: 'paid',
     date: '2022-07-16',
   },
   {
