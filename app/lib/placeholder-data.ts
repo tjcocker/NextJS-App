@@ -44,12 +44,6 @@ const customers = [
     email: 'picard@starfleet.com',
     image_url: '/customers/picard.png',
   },
-  {
-    id: '13A07535-C59E-4157-A011-F8D2EF4E0CBB',
-    name: 'Khan Singh',
-    email: 'khan@setialphaV.com',
-    image_url: '/customers/khan.png',
-  },
 ];
 
 const invoices = [
@@ -112,12 +106,6 @@ const invoices = [
     amount: 8546,
     status: 'paid',
     date: '2022-06-07',
-  },
-  {
-    customer_id: customers[6].id,
-    amount: 54246,
-    status: 'pending',
-    date: '2022-07-16',
   },
   {
     customer_id: customers[5].id,
