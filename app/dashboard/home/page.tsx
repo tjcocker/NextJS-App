@@ -41,8 +41,8 @@ const Home: NextPage = () => {
                         className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
                     > <DocumentDuplicateIcon className="w-5 md:w-6" />
                         <span>Go to Invoices</span><br></br>
-                        <p>- Invoices will be duplicated if not deleted</p>
                     </Link>
+                    <p>- Invoices will be duplicated if not deleted</p>
                 </div>
             </main>
         </div>
