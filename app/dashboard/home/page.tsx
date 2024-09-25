@@ -24,7 +24,7 @@ const Home: NextPage = () => {
                 > <ChartBarSquareIcon className="w-5 md:w-6" />
                     <span>Start with the Dashboard</span>
                 </Link>
-                <br></br> <br></br><br></br>
+                <br></br><br></br>
                 <p><b>Deleted all the invoices?</b> Don&apos;t worry, I can re-seed the data.</p><br></br> <p><i>Or, you can re-seed the database yourself:</i></p><br></br>
                 <p>1. Click below:</p><br></br>
                 <a
