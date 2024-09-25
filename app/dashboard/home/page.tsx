@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { ChartBarSquareIcon, BarsArrowDownIcon, DocumentDuplicateIcon } from '@heroicons/react/24/outline';
+import { ChartBarSquareIcon, ArchiveBoxArrowDownIcon, DocumentDuplicateIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 
 const Home: NextPage = () => {
@@ -30,7 +30,7 @@ const Home: NextPage = () => {
                 <a
                     href="/seed"
                     className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
-                > <BarsArrowDownIcon className="w-5 md:w-6" />
+                > <ArchiveBoxArrowDownIcon className="w-5 md:w-6" />
                     <span>Re-seed Database</span>
                 </a>
                 <br></br><p>2. Click the back button on your browser when you see the message, &quot;Database Seeded Successfully&quot;.</p><br></br>
