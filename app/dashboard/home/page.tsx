@@ -42,7 +42,7 @@ const Home: NextPage = () => {
                     > <DocumentDuplicateIcon className="w-5 md:w-6" />
                         <span>Go to Invoices</span><br></br>
                     </Link><br></br>
-                    <p>* Invoices will be duplicated if not deleted</p>
+                    <p><i>* Invoices will be duplicated if not deleted</i></p>
                 </div>
             </main>
         </div>
