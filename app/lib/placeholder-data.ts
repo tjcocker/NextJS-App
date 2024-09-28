@@ -60,12 +60,6 @@ const invoices = [
     date: '2024-9-022',
   },
   {
-    customer_id: customers[1].id,
-    amount: 20348,
-    status: 'paid',
-    date: '2022-11-14',
-  },
-  {
     customer_id: customers[4].id,
     amount: 200,
     status: 'paid',
@@ -88,18 +82,6 @@ const invoices = [
     amount: 900,
     status: 'paid',
     date: '2023-06-05',
-  },
-  {
-    customer_id: customers[2].id,
-    amount: 54246,
-    status: 'paid',
-    date: '2022-07-16',
-  },
-  {
-    customer_id: customers[4].id,
-    amount: 1250,
-    status: 'paid',
-    date: '2021-06-17',
   },
   {
     customer_id: customers[2].id,
