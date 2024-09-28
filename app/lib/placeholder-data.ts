@@ -44,6 +44,12 @@ const customers = [
     email: 'picard@starfleet.com',
     image_url: '/customers/picard.png',
   },
+  {
+    id: '23D07535-C59E-4157-A011-F8D2EF4E0CBB',
+    name: 'Khan',
+    email: 'khand@setialpha5.com',
+    image_url: '/customers/khan.png',
+  },
 ];
 
 const invoices = [
@@ -90,34 +96,22 @@ const invoices = [
     date: '2022-07-16',
   },
   {
-    customer_id: customers[3].id,
-    amount: 32545,
-    status: 'paid',
-    date: '2022-06-09',
-  },
-  {
     customer_id: customers[4].id,
     amount: 1250,
     status: 'paid',
     date: '2021-06-17',
   },
   {
-    customer_id: customers[5].id,
-    amount: 8546,
-    status: 'paid',
-    date: '2022-06-07',
-  },
-  {
-    customer_id: customers[5].id,
-    amount: 8945,
-    status: 'paid',
-    date: '2022-06-03',
-  },
-  {
     customer_id: customers[2].id,
     amount: 1000,
     status: 'paid',
     date: '2022-06-05',
+  },
+  {
+    customer_id: customers[6].id,
+    amount: 1234,
+    status: 'pending',
+    date: '1984-06-05',
   },
 ];
 
