@@ -50,6 +50,24 @@ const customers = [
     email: 'khan@USSreliant.com',
     image_url: '/customers/khan.png',
   },
+  {
+    id: '45D07535-C59E-4157-A011-F8D2EF4E0CBB',
+    name: 'Peter Quill',
+    email: 'quill@80s.com',
+    image_url: '/customers/quill.png',
+  },
+  {
+    id: '85D07535-C59E-4157-A011-F8D2EF4E0CBB',
+    name: 'Iron Man',
+    email: 'tony@starkindustries.com',
+    image_url: '/customers/ironman.png',
+  },
+  {
+    id: '95D07535-C59E-4157-A011-F8D2EF4E0CBB',
+    name: 'Thanos',
+    email: 'thanos@thanos.net',
+    image_url: '/customers/thanos.png',
+  },
 ];
 
 const invoices = [
@@ -93,6 +111,24 @@ const invoices = [
     customer_id: customers[6].id,
     amount: 16309,
     status: 'pending',
+    date: '1982-04-04',
+  },
+  {
+    customer_id: customers[7].id,
+    amount: 198800,
+    status: 'pending',
+    date: '1988-06-07',
+  },
+  {
+    customer_id: customers[8].id,
+    amount: 300000,
+    status: 'paid',
+    date: '1982-04-04',
+  },
+  {
+    customer_id: customers[9].id,
+    amount: 5000,
+    status: 'paid',
     date: '1982-04-04',
   },
 ];
