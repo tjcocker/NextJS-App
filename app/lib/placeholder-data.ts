@@ -10,7 +10,7 @@ const users = [
 const customers = [
   {
     id: 'd6e15727-9fe1-4961-8c5b-ea44a9bd81aa',
-    name: 'Quill',
+    name: 'Peter Quill',
     email: 'quill@gotg.org',
     image_url: '/customers/quill.png',
   },
@@ -46,7 +46,7 @@ const customers = [
   },
   {
     id: '25D07535-C59E-4157-A011-F8D2EF4E0CBB',
-    name: 'Hulk',
+    name: 'The Hulk',
     email: 'hulk@smash.net',
     image_url: '/customers/hulk.png',
   },
