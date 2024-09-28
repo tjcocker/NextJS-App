@@ -56,6 +56,24 @@ const customers = [
     email: 'antman@tinyurl.net',
     image_url: '/customers/antman.png',
   },
+  {
+    id: '41D67535-C59E-4257-A021-F8D2EF4E0CBB',
+    name: 'Nick Fury',
+    email: 'fury@shield.gov',
+    image_url: '/customers/fury.png',
+  },
+  {
+    id: '88D02345-C59E-4157-A011-F8D2EF4E0CBB',
+    name: 'Hawkeye',
+    email: 'hawkeye@avengers.org',
+    image_url: '/customers/hawkeye.png',
+  },
+  {
+    id: '88D07545-C59E-4157-A011-F8D2EF4E0CBB',
+    name: 'Loki',
+    email: 'loki@valhalla.gov',
+    image_url: '/customers/loki.png',
+  },
 ];
 
 const invoices = [
