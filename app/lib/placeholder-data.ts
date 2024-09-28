@@ -47,7 +47,7 @@ const customers = [
   {
     id: '23D07535-C59E-4157-A011-F8D2EF4E0CBB',
     name: 'Khan',
-    email: 'khand@setialpha5.com',
+    email: 'khan@USSreliant.com',
     image_url: '/customers/khan.png',
   },
 ];
@@ -109,9 +109,9 @@ const invoices = [
   },
   {
     customer_id: customers[6].id,
-    amount: 1234,
+    amount: 16309,
     status: 'pending',
-    date: '1984-06-05',
+    date: '1982-04-04',
   },
 ];
 
