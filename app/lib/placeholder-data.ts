@@ -74,6 +74,18 @@ const customers = [
     email: 'loki@valhalla.gov',
     image_url: '/customers/loki.png',
   },
+  {
+    id: '83407545-C59E-4157-A011-F8D2EF4E0CBB',
+    name: 'War Machine',
+    email: 'warmachine@starkindustries.com',
+    image_url: '/customers/wm.png',
+  },
+  {
+    id: '88543545-C59E-4157-A011-F8D2EF4E0CBB',
+    name: 'Vision',
+    email: 'vision@jarvis.com',
+    image_url: '/customers/vision.png',
+  },
 ];
 
 const invoices = [
