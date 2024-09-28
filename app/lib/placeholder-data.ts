@@ -50,6 +50,12 @@ const customers = [
     email: 'hulk@smash.net',
     image_url: '/customers/hulk.png',
   },
+  {
+    id: '88D07535-C59E-4157-A011-F8D2EF4E0CBB',
+    name: 'Ant-Man',
+    email: 'antman@tinyurl.net',
+    image_url: '/customers/antman.png',
+  },
 ];
 
 const invoices = [
@@ -94,6 +100,12 @@ const invoices = [
     amount: 16309,
     status: 'pending',
     date: '1982-04-04',
+  },
+  {
+    customer_id: customers[6].id,
+    amount: 13400,
+    status: 'pending',
+    date: '2001-01-04',
   },
 ];
 
