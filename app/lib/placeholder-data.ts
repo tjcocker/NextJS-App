@@ -10,76 +10,58 @@ const users = [
 const customers = [
   {
     id: 'd6e15727-9fe1-4961-8c5b-ea44a9bd81aa',
-    name: 'Q',
-    email: 'q@continuum.com',
-    image_url: '/customers/q.png',
-  },
-  {
-    id: '3958dc9e-712f-4377-85e9-fec4b6a6442a',
-    name: 'Lt. Worf',
-    email: 'worf@starfleet.com',
-    image_url: '/customers/worf.png',
-  },
-  {
-    id: '3958dc9e-742f-4377-85e9-fec4b6a6442a',
-    name: 'Geordi LaForge',
-    email: 'geordi@starfleet.com',
-    image_url: '/customers/geordi.png',
-  },
-  {
-    id: '76d65c26-f784-44a2-ac19-586678f7c2f2',
-    name: 'Commander Riker',
-    email: 'riker@starfleet.com',
-    image_url: '/customers/riker.png',
-  },
-  {
-    id: 'CC27C14A-0ACF-4F4A-A6C9-D45682C144B9',
-    name: 'Mr. Data',
-    email: 'data@starfleet.com',
-    image_url: '/customers/data.png',
-  },
-  {
-    id: '13D07535-C59E-4157-A011-F8D2EF4E0CBB',
-    name: 'Captain Picard',
-    email: 'picard@starfleet.com',
-    image_url: '/customers/picard.png',
-  },
-  {
-    id: '25D07535-C59E-4157-A011-F8D2EF4E0CBB',
-    name: 'Khan',
-    email: 'khan@USSreliant.com',
-    image_url: '/customers/khan.png',
-  },
-  {
-    id: '45D07535-C59E-4157-A011-F8D2EF4E0CBB',
-    name: 'Peter Quill',
-    email: 'quill@80s.com',
+    name: 'Quill',
+    email: 'quill@gotg.org',
     image_url: '/customers/quill.png',
   },
   {
-    id: '85D07535-C59E-4157-A011-F8D2EF4E0CBB',
+    id: '3958dc9e-712f-4377-85e9-fec4b6a6442a',
+    name: 'Thanos',
+    email: 'thanos@thanos.info',
+    image_url: '/customers/thanos.png',
+  },
+  {
+    id: '3958dc9e-742f-4377-85e9-fec4b6a6442a',
     name: 'Iron Man',
     email: 'tony@starkindustries.com',
     image_url: '/customers/ironman.png',
   },
   {
-    id: '95D07535-C59E-4157-A011-F8D2EF4E0CBB',
-    name: 'Thanos',
-    email: 'thanos@thanos.net',
-    image_url: '/customers/thanos.png',
+    id: '76d65c26-f784-44a2-ac19-586678f7c2f2',
+    name: 'Thor',
+    email: 'thor@valhalla.gov',
+    image_url: '/customers/thor.png',
+  },
+  {
+    id: 'CC27C14A-0ACF-4F4A-A6C9-D45682C144B9',
+    name: 'Black Widow',
+    email: 'natasha@spy.ru',
+    image_url: '/customers/bw.png',
+  },
+  {
+    id: '13D07535-C59E-4157-A011-F8D2EF4E0CBB',
+    name: 'Captain America',
+    email: 'cap@us.gov',
+    image_url: '/customers/cap.png',
+  },
+  {
+    id: '25D07535-C59E-4157-A011-F8D2EF4E0CBB',
+    name: 'Hulk',
+    email: 'hulk@smash.net',
+    image_url: '/customers/hulk.png',
   },
 ];
 
 const invoices = [
   {
     customer_id: customers[0].id,
-    amount: 100000000,
+    amount: 10340,
     status: 'pending',
     date: '2024-9-022',
   },
   {
     customer_id: customers[4].id,
-    amount: 200,
+    amount: 2070,
     status: 'paid',
     date: '2023-9-21',
   },
@@ -97,13 +79,13 @@ const invoices = [
   },
   {
     customer_id: customers[1].id,
-    amount: 900,
+    amount: 9100,
     status: 'paid',
     date: '2023-06-05',
   },
   {
     customer_id: customers[2].id,
-    amount: 1000,
+    amount: 12000,
     status: 'paid',
     date: '2022-06-05',
   },
@@ -112,24 +94,6 @@ const invoices = [
     amount: 16309,
     status: 'pending',
     date: '1982-04-04',
-  },
-  {
-    customer_id: customers[7].id,
-    amount: 198800,
-    status: 'pending',
-    date: '1988-06-07',
-  },
-  {
-    customer_id: customers[8].id,
-    amount: 300000,
-    status: 'paid',
-    date: '1982-04-04',
-  },
-  {
-    customer_id: customers[9].id,
-    amount: 5000,
-    status: 'paid',
-    date: '2018-04-27',
   },
 ];
 
