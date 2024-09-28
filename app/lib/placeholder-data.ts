@@ -47,7 +47,7 @@ const customers = [
   {
     id: '23D07535-C59E-4157-A011-F8D2EF4E0CBB',
     name: 'Khan',
-    email: 'khan@USSreliant.com',
+    email: 'khan1@USSreliant.com',
     image_url: '/customers/khan.png',
   },
 ];
