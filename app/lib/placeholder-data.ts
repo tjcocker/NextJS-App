@@ -47,13 +47,13 @@ const customers = [
   {
     id: '25D07535-C59E-4157-A011-F8D2EF4E0CBB',
     name: 'The Hulk',
-    email: 'hulk@smash.net',
+    email: 'hulk@smash.info',
     image_url: '/customers/hulk.png',
   },
   {
     id: '88D07535-C59E-4157-A011-F8D2EF4E0CBB',
     name: 'Ant-Man',
-    email: 'antman@tinyurl.net',
+    email: 'ant-man@tinyurl.net',
     image_url: '/customers/antman.png',
   },
   {
@@ -77,13 +77,13 @@ const customers = [
   {
     id: '83407545-C59E-4157-A011-F8D2EF4E0CBB',
     name: 'War Machine',
-    email: 'warmachine@starkindustries.com',
+    email: 'war-machine@starkindustries.com',
     image_url: '/customers/wm.png',
   },
   {
     id: '88543545-C59E-4157-A011-F8D2EF4E0CBB',
     name: 'Vision',
-    email: 'vision@jarvis.com',
+    email: 'vision@jarvis.io',
     image_url: '/customers/vision.png',
   },
   {
@@ -127,7 +127,7 @@ const invoices = [
   },
   {
     customer_id: customers[3].id,
-    amount: 170100,
+    amount: 17000,
     status: 'paid',
     date: '2023-09-10',
   },
@@ -139,9 +139,9 @@ const invoices = [
   },
   {
     customer_id: customers[1].id,
-    amount: 9100,
+    amount: 5000,
     status: 'paid',
-    date: '2023-06-05',
+    date: '2024-06-05',
   },
   {
     customer_id: customers[2].id,
