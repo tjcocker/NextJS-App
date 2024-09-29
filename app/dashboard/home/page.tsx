@@ -15,17 +15,22 @@ const Home: NextPage = () => {
                 <h1>
                     <b>Welcome!</b>
                 </h1><br></br>
-                <p><i>This is a project for learning Next.js and playing around with testing tools.</i></p>
+                <p><i>This is a project for learning Next.js and playing around with testing tools. This is a work in progress.</i></p>
                 <br></br>
-                <p><b>Feel free to create, update, or delete invoices.</b></p><br></br>
                 <Link
                     href="/dashboard"
                     className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
                 > <ChartBarSquareIcon className="w-5 md:w-6" />
                     <span>Start with the Dashboard</span>
-                </Link>
-                <br></br><br></br>
-                <p><b>Deleted all the invoices?</b> Don&apos;t worry, I can re-seed the data.</p><br></br> <p><i>Or, you can re-seed the database yourself:</i></p><br></br>
+                </Link><br></br>
+                <p><b>Feel free to create, update, or delete invoices.</b></p><br></br>
+                <Link
+                    href="/dashboard/invoices"
+                    className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
+                > <DocumentDuplicateIcon className="w-5 md:w-6" />
+                    <span>Go to Invoices</span>
+                </Link><br></br><br></br><br></br>
+                <p><b>Deleted <i>all</i> of the invoices?</b> Don&apos;t worry, I can re-seed the data.</p><br></br> <p><i>Or you can re-seed the database yourself:</i></p><br></br>
                 <p>1. Click below:</p><br></br>
                 <a
                     href="/seed"
