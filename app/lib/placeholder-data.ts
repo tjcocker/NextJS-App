@@ -94,20 +94,20 @@ const customers = [
   },
   {
     id: '89843115-C59E-4157-A011-F8D2EF4E0CBB',
-    name: 'Spiderman1',
-    email: 'spiderman1@friendly-neighborhood.org',
+    name: 'Spiderman',
+    email: 'tobey@friendly-neighborhood.org',
     image_url: '/customers/s1.png',
   },
   {
     id: '86243115-C59E-4157-A011-F8D2EF4E0CBB',
-    name: 'Spiderman2',
-    email: 'spiderman2@friendly-neighborhood.org',
+    name: 'Spiderman',
+    email: 'andrew@friendly-neighborhood.org',
     image_url: '/customers/s2.png',
   },
   {
     id: '81743115-C59E-4157-A011-F8D2EF4E0CBB',
-    name: 'Spiderman3',
-    email: 'spiderman3@friendly-neighborhood.org',
+    name: 'Spiderman',
+    email: 'tom@friendly-neighborhood.org',
     image_url: '/customers/s3.png',
   },
 ];
