@@ -86,12 +86,12 @@ const customers = [
     email: 'vision@jarvis.com',
     image_url: '/customers/vision.png',
   },
-  // {
-  //   id: '88543545-C59E-4987-A011-F8D1EF4E0CBB',
-  //   name: 'Dr Strange',
-  //   email: 'strange@sanctum-sanctorum.org',
-  //   image_url: '/customers/strange.png',
-  // },
+  {
+    id: '88543115-C59E-4157-A011-F8D2EF4E0CBB',
+    name: 'Dr Strange',
+    email: 'strange@sanctum-sanctorum.org',
+    image_url: '/customers/strange.png',
+  },
   // {
   //   id: '88543785-C59E-4987-A011-F8D1GT4E0CBB',
   //   name: 'Spiderman1',
