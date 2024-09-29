@@ -86,6 +86,30 @@ const customers = [
     email: 'vision@jarvis.com',
     image_url: '/customers/vision.png',
   },
+  {
+    id: '88543545-C59E-4987-A011-F8D1EF4E0CBB',
+    name: 'Dr. Strange',
+    email: 'strange@sanctum-sanctorum.org',
+    image_url: '/customers/strange.png',
+  },
+  {
+    id: '88543545-C59E-4987-A011-F8D1GT4E0CBB',
+    name: 'Spiderman',
+    email: 'spiderman1@friendly-neighborhood.org',
+    image_url: '/customers/s1.png',
+  },
+  {
+    id: '88543545-C59E-4987-A011-F8D1GH7E0CBB',
+    name: 'Spiderman',
+    email: 'spiderman2@friendly-neighborhood.org',
+    image_url: '/customers/s2.png',
+  },
+  {
+    id: '88543545-C59E-4987-A011-F8D1SW4E0CBB',
+    name: 'Spiderman',
+    email: 'spiderman3@friendly-neighborhood.org',
+    image_url: '/customers/s3.png',
+  },
 ];
 
 const invoices = [
