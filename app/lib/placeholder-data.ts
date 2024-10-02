@@ -159,7 +159,7 @@ const invoices = [
     customer_id: customers[7].id,
     amount: 13400,
     status: 'pending',
-    date: '2001-01-04',
+    date: '2001-01-09',
   },
   {
     customer_id: customers[14].id,
