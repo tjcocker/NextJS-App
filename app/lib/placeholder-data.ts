@@ -157,15 +157,21 @@ const invoices = [
   },
   {
     customer_id: customers[7].id,
-    amount: 13400,
+    amount: 34500,
     status: 'pending',
     date: '2001-08-09',
   },
   {
     customer_id: customers[9].id,
-    amount: 13400,
+    amount: 3400,
     status: 'pending',
     date: '2001-06-01',
+  },
+  {
+    customer_id: customers[4].id,
+    amount: 100,
+    status: 'pending',
+    date: '2002-06-01',
   },
   {
     customer_id: customers[11].id,
@@ -175,13 +181,13 @@ const invoices = [
   },
   {
     customer_id: customers[12].id,
-    amount: 13400,
+    amount: 6500,
     status: 'pending',
     date: '2001-08-01',
   },
   {
     customer_id: customers[13].id,
-    amount: 13400,
+    amount: 12200,
     status: 'pending',
     date: '2001-08-02',
   },
