@@ -29,7 +29,7 @@ const Home: NextPage = () => {
                     className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
                 > <DocumentDuplicateIcon className="w-5 md:w-6" />
                     <span>Go to Invoices</span>
-                </Link><br></br><br></br><br></br>
+                </Link><br></br><br></br>
                 <p><b>Deleted <i>all</i> of the invoices?</b> Don&apos;t worry, I can re-seed the data.</p><br></br> <p><i>Or you can re-seed the database yourself:</i></p><br></br>
                 <p>1. Click below:</p><br></br>
                 <a
