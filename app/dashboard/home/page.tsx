@@ -36,13 +36,13 @@ const Home: NextPage = () => {
                 > <DocumentDuplicateIcon className="w-5 md:w-6" />
                     <span>Go to Invoices</span>
                 </Link><br></br><br></br>
-                <p><b>Deleted all the invoices?</b> Don&apos;t worry, I can re-seed the data.</p><br></br> <p><i>Or you can repopulate the database yourself:</i></p>
+                <p><b>Deleted all the invoices?</b> Don&apos;t worry, I can repopulate the database.</p><br></br> <p><i>Or, you can seed the data yourself:</i></p>
                 <br></br>
                 <a
                     href="/seed"
                     className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
                 > <ArchiveBoxArrowDownIcon className="w-5 md:w-6" />
-                    <span>Click Here to seed the database</span>
+                    <span>Click Here to reseed the database</span>
                 </a>
                 <p><br></br> * Invoices will be duplicated if not deleted</p><br></br>
 
