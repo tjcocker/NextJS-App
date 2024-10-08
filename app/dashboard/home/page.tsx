@@ -21,7 +21,7 @@ const Home: NextPage = () => {
                 </a><br></br><br></br>
                     * I removed authentication so anyone could use the app<br></br>
                     * Made the seed function public so users could repopulate the database<br></br>
-                    * Created a new 'Delete All' function to clear the database<br></br>
+                    * Created a new &aposDelete All&apos function to clear the database<br></br>
                     * Added this home page, a contact page, and other cosmetic changes</p><br></br><br></br>
                 <Link
                     href="/dashboard"
