@@ -115,25 +115,25 @@ const customers = [
 const invoices = [
   {
     customer_id: customers[0].id,
-    amount: 198800,
+    amount: 1988,
     status: 'pending',
     date: '2024-9-022',
   },
   {
     customer_id: customers[6].id,
-    amount: 2270,
+    amount: 999,
     status: 'paid',
     date: '2023-9-21',
   },
   {
-    customer_id: customers[3].id,
-    amount: 17000,
+    customer_id: customers[2].id,
+    amount: 300000,
     status: 'paid',
     date: '2023-09-10',
   },
   {
     customer_id: customers[10].id,
-    amount: 35900,
+    amount: 300,
     status: 'pending',
     date: '2023-08-05',
   },
