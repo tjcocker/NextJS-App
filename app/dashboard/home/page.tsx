@@ -36,7 +36,7 @@ const Home: NextPage = () => {
                 > <DocumentDuplicateIcon className="w-5 md:w-6" />
                     <span>Go to Invoices</span>
                 </Link><br></br><br></br>
-                <p><b>Deleted all the invoices?</b> Don&apos;t worry, I can repopulate the database.</p><br></br> <p><i>Or, you can seed the data yourself:</i></p>
+                <p><b>Deleted all the invoices?</b> Don&apos;t worry, I can reset the database.</p><br></br> <p><i>Or, you can repopulate the original data yourself:</i></p>
                 <br></br>
                 <a
                     href="/seed"
