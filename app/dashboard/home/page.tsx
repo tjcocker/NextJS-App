@@ -19,9 +19,9 @@ const Home: NextPage = () => {
                 <br></br><p>It started as the basic tutorial project: &nbsp;<a
                     href="https://nextjs.org/learn/dashboard-app" ><span>https://nextjs.org/learn/dashboard-app</span>
                 </a><br></br><br></br>
-                    * I removed authentication so anyone could use the app<br></br>
-                    * Made the seed function public so users could repopulate the database<br></br>
-                    * Created a new &aposDelete All&apos function to clear the database<br></br>
+                    * I removed authentication so anyone can access the app<br></br>
+                    * Made the seed function public so users can repopulate the database<br></br>
+                    * Created a new &apos;Delete All&apos; function to clear the database<br></br>
                     * Added this home page, a contact page, and other cosmetic changes</p><br></br><br></br>
                 <Link
                     href="/dashboard"
