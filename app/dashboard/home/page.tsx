@@ -22,7 +22,8 @@ const Home: NextPage = () => {
                     * I removed authentication so anyone can access the app<br></br>
                     * Made the existing &apos;Seed Database&apos; function public so users can repopulate the database<br></br>
                     * Created a new &apos;Delete All&apos; function to clear the database<br></br>
-                    * Added this home page, a contact page, and other cosmetic changes</p><br></br><br></br>
+                    * Added this home page, a contact page, and other cosmetic changes<br></br>
+                    * Created Selenium and Cypress tests for the database functions &and; invoices</p><br></br><br></br>
                 <Link
                     href="/dashboard"
                     className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
