@@ -23,7 +23,7 @@ const Home: NextPage = () => {
                     * Made the existing &apos;Seed Database&apos; function public so users can repopulate the database<br></br>
                     * Created a new &apos;Delete All&apos; function to clear the database<br></br>
                     * Added this home page, a contact page, and other cosmetic changes<br></br>
-                    * Created Selenium/Python and Cypress/JavaScript tests for e2e app testing, including database functions &amp; invoice actions</p><br></br><br></br>
+                    * Created Selenium/Python and Cypress/JavaScript testing for database functions &amp; invoice actions</p><br></br><br></br>
                 <Link
                     href="/dashboard"
                     className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
@@ -39,6 +39,7 @@ const Home: NextPage = () => {
                 </Link><br></br><br></br>
                 <p><b>Deleted all the invoices?</b> </p><br></br> <p><i>You can repopulate the original data:</i></p>
                 <br></br>
+                
                 <a
                     href="/seed"
                     className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
