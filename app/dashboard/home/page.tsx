@@ -20,7 +20,7 @@ const Home: NextPage = () => {
                     href="https://nextjs.org/learn/dashboard-app" ><span>https://nextjs.org/learn/dashboard-app</span>
                 </a><br></br><br></br>
                     * I removed authentication so anyone can access the app<br></br>
-                    * Created a new &apos;Delete All&apos; function to clear the sql database<br></br>
+                    * Created a new &apos;Delete All&apos; function to clear the Postgres database<br></br>
                     * Made the existing &apos;Seed Database&apos; function public so users can repopulate the database<br></br>
                     * Added this home page, a contact page, and other cosmetic changes<br></br>
                     * Created Selenium/Python and Cypress/JavaScript testing for database functions &amp; invoice actions</p><br></br><br></br>
