@@ -17,7 +17,7 @@ const Home: NextPage = () => {
                 </h1><br></br>
                 <p><i>This is a project for learning Next.js and React. Feel free to look around and test it out.</i></p>
                 <br></br><p>It started as the basic tutorial project: &nbsp;<a
-                    href="https://nextjs.org/learn/dashboard-app" ><span>https://nextjs.org/learn/dashboard-app</span>
+                    href="https://nextjs.org/learn/dashboard-app" ><b><span>https://nextjs.org/learn/dashboard-app</span></b>
                 </a><br></br><br></br>
                     <a className="flex items-center"
                     ><XMarkIcon className="w-5 md:w-7" /><span>&nbsp;I removed authentication so anyone can access the app </span></a>
