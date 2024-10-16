@@ -19,22 +19,22 @@ const Home: NextPage = () => {
                 <br></br><p>It started as the basic tutorial project: &nbsp;<a
                     href="https://nextjs.org/learn/dashboard-app" ><span>https://nextjs.org/learn/dashboard-app</span>
                 </a><br></br><br></br>
-                    <a href="" className="flex items-center"
+                    <a className="flex items-center"
                     ><XMarkIcon className="w-5 md:w-7" /><span>&nbsp;I removed authentication so anyone can access the app </span></a>
 
-                    <a href="" className="flex items-center"
+                    <a className="flex items-center"
                     ><WrenchIcon className="w-5 md:w-7" /><span>&nbsp;Created a new &apos;Delete All&apos; function to clear the Postgres database </span></a>
 
-                    <a href="" className="flex items-center"
+                    <a className="flex items-center"
                     ><UsersIcon className="w-5 md:w-7" /><span>&nbsp;Made the existing &apos;Seed Database&apos; function public so users could repopulate the database </span></a>
 
-                    <a href="" className="flex items-center"
+                    <a className="flex items-center"
                     ><WrenchScrewdriverIcon className="w-5 md:w-7" /><span>&nbsp;Merged both Delete and Seed into a more user friendly &apos;Reset&apos; function </span></a>
 
-                    <a href="" className="flex items-center"
+                    <a className="flex items-center"
                     ><SwatchIcon className="w-5 md:w-7" /><span>&nbsp;Added this home page, a contact page, and other cosmetic changes </span></a>
 
-                    <a href="" className="flex items-center"
+                    <a className="flex items-center"
                     ><BeakerIcon className="w-5 md:w-7" /><span>&nbsp;Created Selenium and Cypress tests for database functions &amp; invoice actions </span></a></p>
                 <br></br><br></br>
                 <Link
@@ -81,7 +81,7 @@ const Home: NextPage = () => {
                 > <ArchiveBoxArrowDownIcon className="w-5 md:w-7" />
                     <span>Click Here to reseed the database</span>
                 </a>
-                <p><br></br>  <a href="" className="flex items-center"
+                <p><br></br>  <a className="flex items-center"
                 ><ExclamationTriangleIcon className="w-5 md:w-7" /><span>&nbsp;Invoices will be duplicated if not deleted </span></a>
                 </p>
 
