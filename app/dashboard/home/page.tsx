@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { ChartBarSquareIcon, ArchiveBoxArrowDownIcon, DocumentDuplicateIcon, WrenchIcon, TrashIcon, UsersIcon, ArrowPathRoundedSquareIcon, XMarkIcon, BeakerIcon, SwatchIcon, ExclamationTriangleIcon, WrenchScrewdriverIcon } from '@heroicons/react/24/outline';
+import { ChartBarSquareIcon, ArchiveBoxArrowDownIcon, DocumentDuplicateIcon, WrenchIcon, TrashIcon, UserIcon, ArrowPathRoundedSquareIcon, XMarkIcon, BeakerIcon, SwatchIcon, ExclamationTriangleIcon, WrenchScrewdriverIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 
 const Home: NextPage = () => {
@@ -26,7 +26,7 @@ const Home: NextPage = () => {
                     ><WrenchIcon className="w-5 md:w-7" /><span>&nbsp;Created a new &apos;Delete All&apos; function to clear the Postgres database </span></a>
 
                     <a className="flex items-center"
-                    ><UsersIcon className="w-5 md:w-7" /><span>&nbsp;Made the existing &apos;Seed Database&apos; function public so users could repopulate the database </span></a>
+                    ><UserIcon className="w-5 md:w-7" /><span>&nbsp;Made the existing &apos;Seed Database&apos; function public so users could repopulate the database </span></a>
 
                     <a className="flex items-center"
                     ><WrenchScrewdriverIcon className="w-5 md:w-7" /><span>&nbsp;Merged both Delete and Seed into a more user friendly &apos;Reset&apos; function </span></a>
