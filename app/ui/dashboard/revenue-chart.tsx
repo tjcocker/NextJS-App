@@ -1,5 +1,5 @@
 import { generateYAxis } from '@/app/lib/utils';
-import { CalendarDateRangeIcon } from '@heroicons/react/24/solid';
+import { CalendarIcon } from '@heroicons/react/24/solid';
 import { lusitana } from '@/app/ui/fonts';
 import { Revenue } from '@/app/lib/definitions';
 import { fetchRevenue } from '@/app/lib/data';
@@ -46,7 +46,7 @@ export default async function RevenueChart() {
           ))}
         </div>
         <div className="flex items-center pb-2 pt-6">
-          <CalendarDateRangeIcon className="h-5 w-5" />
+          <CalendarIcon className="h-5 w-5" />
           <h3 className="ml-2 text-sm text-gray-500 ">Last 12 months</h3>
         </div>
       </div>
