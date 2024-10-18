@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { WrenchScrewdriverIcon, WrenchIcon, ExclamationTriangleIcon, TrashIcon, ArchiveBoxArrowDownIcon, ArrowPathRoundedSquareIcon, ChartBarSquareIcon, DocumentCurrencyDollarIcon, BeakerIcon } from '@heroicons/react/24/solid';
+import { WrenchScrewdriverIcon, WrenchIcon, ExclamationTriangleIcon, TrashIcon, ArchiveBoxArrowDownIcon, ArrowPathRoundedSquareIcon, ChartBarSquareIcon, CurrencyDollarIcon, BeakerIcon } from '@heroicons/react/24/solid';
 import { KeyIcon, SwatchIcon, UsersIcon } from '@heroicons/react/24/outline';
 
 import Link from 'next/link';
@@ -51,7 +51,7 @@ const Home: NextPage = () => {
                 <Link
                     href="/dashboard/invoices"
                     className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
-                > <DocumentCurrencyDollarIcon className="w-5 md:w-7" />
+                > <CurrencyDollarIcon className="w-5 md:w-7" />
                     <span>Go to Invoices</span>
                 </Link><br></br>
                 <p><b>Want to start over? Click below:</b></p>
