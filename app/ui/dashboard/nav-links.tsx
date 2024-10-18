@@ -3,7 +3,7 @@
 import {
   UserGroupIcon,
   ChartBarSquareIcon,
-  DocumentCurrencyDollarIcon,
+  CurrencyDollarIcon,
   HomeModernIcon,
   EnvelopeIcon
 } from '@heroicons/react/24/solid';
@@ -19,7 +19,7 @@ const links = [
   {
     name: 'Invoices',
     href: '/dashboard/invoices',
-    icon: DocumentCurrencyDollarIcon,
+    icon: CurrencyDollarIcon,
   },
   { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
   { name: 'Contact', href: '/dashboard/contact', icon: EnvelopeIcon },
