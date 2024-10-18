@@ -1,6 +1,8 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { ChartBarSquareIcon, ArchiveBoxArrowDownIcon, DocumentDuplicateIcon, WrenchIcon, TrashIcon, UsersIcon, ArrowPathRoundedSquareIcon, XMarkIcon, BeakerIcon, SwatchIcon, ExclamationTriangleIcon, WrenchScrewdriverIcon } from '@heroicons/react/24/outline';
+import { WrenchScrewdriverIcon, WrenchIcon, ExclamationTriangleIcon, TrashIcon, ArchiveBoxArrowDownIcon, ArrowPathRoundedSquareIcon, ChartBarSquareIcon, DocumentCurrencyDollarIcon, BeakerIcon } from '@heroicons/react/24/solid';
+import { KeyIcon, SwatchIcon, UsersIcon } from '@heroicons/react/24/outline';
+
 import Link from 'next/link';
 
 const Home: NextPage = () => {
@@ -20,23 +22,23 @@ const Home: NextPage = () => {
                     href="https://nextjs.org/learn/dashboard-app" ><b><span>https://nextjs.org/learn/dashboard-app</span></b>
                 </a><br></br><br></br>
                     <a className="flex items-center"
-                    ><XMarkIcon className="w-5 md:w-7" /><span>&nbsp;I removed authentication so anyone can access the app </span></a>
+                    ><KeyIcon className="w-8 md:w-8" /><span>&nbsp;I removed authentication so anyone can access the app </span></a>
 
                     <a className="flex items-center"
-                    ><WrenchIcon className="w-5 md:w-7" /><span>&nbsp;Created a new &apos;Delete All&apos; function to clear the Postgres database </span></a>
+                    ><WrenchIcon className="w-8 md:w-8" /><span>&nbsp;Created a new &apos;Delete All&apos; function to clear the Postgres database </span></a>
 
                     <a className="flex items-center"
-                    ><UsersIcon className="w-5 md:w-7" /><span>&nbsp;Made the existing &apos;Seed Database&apos; function public so users could repopulate the database </span></a>
+                    ><UsersIcon className="w-8 md:w-8" /><span>&nbsp;Made the existing &apos;Seed Database&apos; function public so users could repopulate the database </span></a>
 
                     <a className="flex items-center"
-                    ><WrenchScrewdriverIcon className="w-5 md:w-7" /><span>&nbsp;Merged both Delete and Seed into a more user friendly &apos;Reset&apos; function </span></a>
+                    ><WrenchScrewdriverIcon className="w-8 md:w-8" /><span>&nbsp;Merged both Delete and Seed into a more user friendly &apos;Reset&apos; function </span></a>
 
                     <a className="flex items-center"
-                    ><SwatchIcon className="w-5 md:w-7" /><span>&nbsp;Added this home page, a contact page, and other cosmetic changes </span></a>
-
+                    ><SwatchIcon className="w-8 md:w-8" /><span>&nbsp;Added this home page, a contact page, and other cosmetic changes </span></a>
+                    <br></br>
                     <a className="flex items-center"
-                    ><BeakerIcon className="w-5 md:w-7" /><span>&nbsp;Created Selenium and Cypress tests for database functions &amp; invoice actions </span></a></p>
-                <br></br><br></br>
+                    ><BeakerIcon className="w-8 md:w-8" /><span>&nbsp;Created Selenium and Cypress tests for database functions &amp; invoice actions </span></a>
+                </p><br></br><br></br>
                 <Link
                     href="/dashboard"
                     className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
@@ -49,7 +51,7 @@ const Home: NextPage = () => {
                 <Link
                     href="/dashboard/invoices"
                     className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
-                > <DocumentDuplicateIcon className="w-5 md:w-7" />
+                > <DocumentCurrencyDollarIcon className="w-5 md:w-7" />
                     <span>Go to Invoices</span>
                 </Link><br></br>
                 <p><b>Want to start over? Click below:</b></p>
@@ -82,7 +84,7 @@ const Home: NextPage = () => {
                     <span>Click Here to reseed the database</span>
                 </a>
                 <p><br></br>  <a className="flex items-center"
-                ><ExclamationTriangleIcon className="w-5 md:w-7" /><span>&nbsp;Invoices will be duplicated if not deleted </span></a>
+                ><ExclamationTriangleIcon className="w-8 md:w-8" /><span>&nbsp;Invoices will be duplicated if not deleted </span></a>
                 </p>
 
             </main>

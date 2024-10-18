@@ -3,10 +3,10 @@
 import {
   UserGroupIcon,
   ChartBarSquareIcon,
-  DocumentDuplicateIcon,
+  DocumentCurrencyDollarIcon,
   HomeModernIcon,
   EnvelopeIcon
-} from '@heroicons/react/24/outline';
+} from '@heroicons/react/24/solid';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
@@ -19,7 +19,7 @@ const links = [
   {
     name: 'Invoices',
     href: '/dashboard/invoices',
-    icon: DocumentDuplicateIcon,
+    icon: DocumentCurrencyDollarIcon,
   },
   { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
   { name: 'Contact', href: '/dashboard/contact', icon: EnvelopeIcon },

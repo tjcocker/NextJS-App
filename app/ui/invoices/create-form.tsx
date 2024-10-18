@@ -7,7 +7,7 @@ import {
   ClockIcon,
   CurrencyDollarIcon,
   UserCircleIcon,
-} from '@heroicons/react/24/outline';
+} from '@heroicons/react/24/solid';
 import { Button } from '@/app/ui/button';
 import { useActionState } from 'react';
 import { createInvoice, State } from '@/app/lib/actions';

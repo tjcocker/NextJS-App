@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import { CogIcon, BriefcaseIcon, ComputerDesktopIcon, EnvelopeIcon, RectangleGroupIcon } from '@heroicons/react/24/outline';
+import { CogIcon, BriefcaseIcon, ComputerDesktopIcon, EnvelopeIcon, ArchiveBoxIcon } from '@heroicons/react/24/solid';
 import Link from 'next/link';
 
 const Contact: NextPage = () => {
@@ -38,8 +38,8 @@ const Contact: NextPage = () => {
                     <Link
                         href="https://bitbucket.org/tim-cockerham/app/src/master/"
                         className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
-                    > <RectangleGroupIcon className="w-5 md:w-6" />
-                        <span>Bitbucket repo</span><br></br>
+                    > <ArchiveBoxIcon className="w-5 md:w-6" />
+                        <span>Bitbucket repo &nbsp; *currently inactive</span><br></br>
                     </Link><br></br><br></br>
                     <Link
                         href="https://tim-cockerham.com/"
