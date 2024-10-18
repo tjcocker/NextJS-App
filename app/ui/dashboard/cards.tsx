@@ -2,7 +2,7 @@ import {
   BanknotesIcon,
   ClockIcon,
   UserGroupIcon,
-  DocumentCurrencyDollarIcon,
+  CurrencyDollarIcon,
 } from '@heroicons/react/24/solid';
 import { lusitana } from '@/app/ui/fonts';
 import { fetchCardData } from '@/app/lib/data';
@@ -11,7 +11,7 @@ const iconMap = {
   collected: BanknotesIcon,
   customers: UserGroupIcon,
   pending: ClockIcon,
-  invoices: DocumentCurrencyDollarIcon,
+  invoices: CurrencyDollarIcon,
 };
 
 export default async function CardWrapper() {
