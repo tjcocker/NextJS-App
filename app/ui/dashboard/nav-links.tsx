@@ -5,7 +5,8 @@ import {
   ChartBarSquareIcon,
   CurrencyDollarIcon,
   HomeModernIcon,
-  EnvelopeIcon
+  EnvelopeIcon,
+  DocumentCurrencyDollarIcon,
 } from '@heroicons/react/24/solid';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -19,7 +20,7 @@ const links = [
   {
     name: 'Invoices',
     href: '/dashboard/invoices',
-    icon: CurrencyDollarIcon,
+    icon: DocumentCurrencyDollarIcon,
   },
   { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
   { name: 'Contact', href: '/dashboard/contact', icon: EnvelopeIcon },
