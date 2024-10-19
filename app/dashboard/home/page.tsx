@@ -36,8 +36,10 @@ const Home: NextPage = () => {
                     <a className="flex items-center"
                     ><SwatchIcon className="w-8 md:w-8" /><span>&nbsp;Added this home page, a contact page, and other cosmetic changes </span></a>
                     <br></br>
-                    <a className="flex items-center"
-                    ><BeakerIcon className="w-8 md:w-8" /><span>&nbsp;Created Selenium and Cypress tests for database functions &amp; invoice actions </span></a>
+                    <p className="flex items-center"
+                    ><BeakerIcon className="w-8 md:w-8" /><span>&nbsp;Created <a
+                    href="https://tim-cockerham.com/videos/appTest.mp4"><b>Selenium</b></a> and <a
+                    href="https://tim-cockerham.com/videos/cypressAppTest.mp4"><b>Cypress</b></a> tests for database functions &amp; invoice actions </span></p>
                 </p><br></br><br></br>
                 <Link
                     href="/dashboard"
