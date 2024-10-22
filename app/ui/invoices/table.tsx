@@ -77,7 +77,7 @@ export default async function InvoicesTable({
                   Status
                   
                 </th>
-                
+ 
               </tr>
             </thead>
             <tbody className="bg-white">
