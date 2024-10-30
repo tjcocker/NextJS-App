@@ -17,7 +17,7 @@ const Home: NextPage = () => {
                 <h1>
                     <b>Welcome!</b>
                 </h1><br></br>
-                <p><i>This is a project for learning Next.js and React. Feel free to look around and test it out.</i></p>
+                <p><i>This is a project for learning and testing a React web app. Feel free to look around and test it out.</i></p>
                 <br></br><p>It started as the basic tutorial project: &nbsp;<a
                     href="https://nextjs.org/learn/dashboard-app" ><b><span>https://nextjs.org/learn/dashboard-app</span></b>
                 </a><br></br><br></br>
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
                     ><SwatchIcon className="w-8 md:w-8" /><span>&nbsp;Added this home page, a contact page, and other cosmetic changes </span></a>
                     <br></br>
                     <p className="flex items-center"
-                    ><BeakerIcon className="w-8 md:w-8" /><span>&nbsp;Created <a
+                    ><BeakerIcon className="w-8 md:w-8" /><span>&nbsp;Created basic <a
                     href="https://tim-cockerham.com/videos/appTest.mp4"><b>Selenium</b></a> and <a
                     href="https://tim-cockerham.com/videos/cypressAppTest.mp4"><b>Cypress</b></a> tests for database functions &amp; invoice actions </span></p>
                 </p><br></br><br></br>

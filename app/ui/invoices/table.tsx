@@ -59,25 +59,25 @@ export default async function InvoicesTable({
               <tr>
                 <th scope="col" className="px-4 py-5 font-medium sm:pl-6">
                   Customer
-                  
-                  </th>
+
+                </th>
                 <th scope="col" className="px-3 py-5 font-medium">
                   Email
-                  
+
                 </th>
                 <th scope="col" className="px-3 py-5 font-medium">
                   Amount
-                  
+
                 </th>
                 <th scope="col" className="px-3 py-5 font-medium">
                   Date
-                 
+
                 </th>
                 <th scope="col" className="px-3 py-5 font-medium">
                   Status
-                  
+
                 </th>
- 
+
               </tr>
             </thead>
             <tbody className="bg-white">
