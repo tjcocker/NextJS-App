@@ -30,6 +30,6 @@
     ".next/types/**/*.ts",
     "app/lib/placeholder-data.ts",
     "scripts/seed.js"
-  ],
+, "cypress/support/e2e.js", "cypress.config.js"  ],
   "exclude": ["node_modules"]
 }

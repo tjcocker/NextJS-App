@@ -2,8 +2,12 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { WrenchScrewdriverIcon, WrenchIcon, ExclamationTriangleIcon, TrashIcon, ArchiveBoxArrowDownIcon, ArrowPathRoundedSquareIcon, ChartBarSquareIcon, DocumentTextIcon, BeakerIcon } from '@heroicons/react/24/solid';
 import { KeyIcon, SwatchIcon, UsersIcon } from '@heroicons/react/24/outline';
-
+import { Metadata } from 'next';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+    title: 'Home',
+  };
 
 const Home: NextPage = () => {
     return (
@@ -15,7 +19,7 @@ const Home: NextPage = () => {
 
             <main>
                 <h1>
-                    <b>Welcome!</b>
+                    <b data-cy="welcomeText">Welcome!</b>
                 </h1><br></br>
                 <p><i>This is a project for learning and testing a React web app. Feel free to look around and test it out.</i></p>
                 <br></br><p>It started as the basic tutorial project: &nbsp;<a
