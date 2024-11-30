@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 const Home: NextPage = () => {
     return (
         <div>
-            <Head>
+            {/* <Head>
                 <meta name="description" content="A static html home page" />
                 <link rel="icon" href="/favicon.ico" />
-            </Head>
+            </Head> */}
 
             <main>
                 <h1>
@@ -24,27 +24,27 @@ const Home: NextPage = () => {
                 <p><i>This is a project for learning and testing a React web app. Feel free to look around and test it out.</i></p>
                 <br></br><p>It started as the basic tutorial project: &nbsp;<a
                     href="https://nextjs.org/learn/dashboard-app" ><b><span>https://nextjs.org/learn/dashboard-app</span></b>
-                </a><br></br><br></br>
+                </a></p><br></br>
                     <a className="flex items-center"
-                    ><KeyIcon className="w-8 md:w-8" /><span>&nbsp;I removed authentication so anyone can access the app </span></a>
+                    ><KeyIcon className="w-8 md:w-8" /><span>&nbsp;&nbsp;I removed authentication so anyone can access the app </span></a>
 
                     <a className="flex items-center"
-                    ><WrenchIcon className="w-8 md:w-8" /><span>&nbsp;Created a new &apos;Delete All&apos; function to clear the Postgres database </span></a>
+                    ><WrenchIcon className="w-8 md:w-8" /><span>&nbsp;&nbsp;Created a new &apos;Delete All&apos; function to clear the Postgres database </span></a>
 
                     <a className="flex items-center"
-                    ><UsersIcon className="w-8 md:w-8" /><span>&nbsp;Made the existing &apos;Seed Database&apos; function public so users could repopulate the database </span></a>
+                    ><UsersIcon className="w-8 md:w-8" /><span>&nbsp;&nbsp;Made the existing &apos;Seed Database&apos; function public so users could repopulate the database </span></a>
 
                     <a className="flex items-center"
-                    ><WrenchScrewdriverIcon className="w-8 md:w-8" /><span>&nbsp;Merged both Delete and Seed into a more user friendly &apos;Reset&apos; function </span></a>
+                    ><WrenchScrewdriverIcon className="w-8 md:w-8" /><span>&nbsp;&nbsp;Merged both Delete and Seed into a more user friendly &apos;Reset&apos; function </span></a>
 
                     <a className="flex items-center"
-                    ><SwatchIcon className="w-8 md:w-8" /><span>&nbsp;Added this home page, a contact page, and other cosmetic changes </span></a>
+                    ><SwatchIcon className="w-8 md:w-8" /><span>&nbsp;&nbsp;Added this home page, a contact page, and other cosmetic changes </span></a>
                     <br></br>
                     <p className="flex items-center"
-                    ><BeakerIcon className="w-8 md:w-8" /><span>&nbsp;Created basic <a
-                    href="https://tim-cockerham.com/videos/appTest.mp4"><b>Selenium</b></a> and <a
-                    href="https://tim-cockerham.com/videos/cypressAppTest.mp4"><b>Cypress</b></a> tests for database functions &amp; invoice actions </span></p>
-                </p><br></br><br></br>
+                    ><BeakerIcon className="w-8 md:w-8" /><span>&nbsp;&nbsp;<a
+                    href="https://tim-cockerham.com/videos/cypressAppTest.mp4"><b>Cypress</b></a> e2e testing &amp; <a
+                    href="https://tim-cockerham.com/videos/appTest.mp4"><b>Selenium</b></a> tests for database functions </span></p>
+                <br></br><br></br>
                 <Link
                     href="/dashboard"
                     className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
