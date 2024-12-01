@@ -2,6 +2,11 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import { CogIcon, BriefcaseIcon, ComputerDesktopIcon, EnvelopeIcon, ArchiveBoxIcon } from '@heroicons/react/24/solid';
 import Link from 'next/link';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Contact',
+  };
 
 const Contact: NextPage = () => {
     return (
