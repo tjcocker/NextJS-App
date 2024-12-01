@@ -52,8 +52,7 @@ const Home: NextPage = () => {
                     className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
                 > <ChartBarSquareIcon className="w-5 md:w-7" />
                     <span>Start with the Dashboard</span>
-                </Link><br></br>
-                <p>Latest invoices, amount collected, pending, etc... update as invoices are added or changed.</p>
+                </Link>
                 <br></br>
                 <p><b>Feel free to create, edit, or delete invoices.</b></p><br></br>
                 <Link
