@@ -25,8 +25,8 @@ const Home: NextPage = () => {
                 <br></br>
                 <p className="flex items-center"
                 ><BeakerIcon className="w-8 md:w-8" /><span>&nbsp;&nbsp;<a
-                    href="https://tim-cockerham.com/videos/cypressAppTest.mp4"><b>Cypress</b></a> e2e testing &amp; <a
-                        href="https://tim-cockerham.com/videos/appTest.mp4"><b>Selenium</b></a> tests for database functions </span></p>
+                    href="https://tim-cockerham.com/videos/cypressAppTest.mp4"><b>Cypress</b></a> testing &amp; <a
+                        href="https://tim-cockerham.com/images/appTest.webp"><b>Selenium</b></a> tests for database functions </span></p>
                 <br></br>
                 <p>It started as the basic tutorial project: &nbsp;<a
                     href="https://nextjs.org/learn/dashboard-app" ><b><span>https://nextjs.org/learn/dashboard-app</span></b>
@@ -54,7 +54,7 @@ const Home: NextPage = () => {
                     <span>Start with the Dashboard</span>
                 </Link>
                 <br></br>
-                <p><b>Feel free to create, edit, or delete invoices.</b></p><br></br>
+                <p><b>Feel free to create, edit, or delete invoices:</b></p><br></br>
                 <Link
                     href="/dashboard/invoices"
                     className="flex items-center gap-5 self-start rounded-lg bg-blue-600 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
